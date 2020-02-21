@@ -1,0 +1,6 @@
+before_build:
+  - nuget restore TestNugetPackage\TestNugetPackage.sln
+build_script:
+  - msbuild TestNugetPackage\TestNugetPackage.sln
+test_script:
+  - dotnet test TestNugetPackage\NUnitTestProjectWithIndirectDependencies\NUnitTestProjectWithIndirectDependencies.csproj

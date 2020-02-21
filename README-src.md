@@ -7,7 +7,7 @@ Graphviz.NetWrapper
 ## Supported platforms
 
 At the moment, `Rubjerg.Graphviz` ships with a bunch of precompiled Graphviz dlls built for
-64 bit Windows with .NET Framework version 4.5 and higher.
+64 bit Windows and runs on .NET Standard 1.3 and higher.
 In the future support may be extended to other platforms.
 
 ## Contributing
@@ -21,6 +21,8 @@ You can either add this library as a nuget package to project, or include the so
 project reference.
 
 ### Adding as a Nuget package
+
+[![Build status](https://ci.appveyor.com/api/projects/status/wiicawl3fxrib6v6?svg=true)](https://ci.appveyor.com/project/Chiel92/graphviz-netwrapper-t3344)
 
 Add the [Rubjerg.Graphviz nuget package](https://www.nuget.org/packages/Rubjerg.Graphviz/) to
 your project.
